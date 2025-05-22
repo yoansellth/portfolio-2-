@@ -1,0 +1,62 @@
+
+
+
+nav.menu ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    
+
+}
+
+nav.menu ul li.btn a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding:7px;
+
+}
+
+nav.menu ul li.btn:hover a{
+    color: beige;
+    background-color:gray;
+    transition:0.4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*h1{
+    color: rgb(62, 6, 192);
+}
+
+p.rouge{
+    color: darkred;
+}
+
+p.jaune{
+    color: gold;
+    background-color: darkmagenta;
+}
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHq2okEqRIhVpd9AHZ7_QXg-Ctzf4MxpvFNA&s) no-repeat;
+    background-size: cover;
+}
+
+h2.change{
+    color: rgb(8, 224, 224);
+
+}
+
+h1.center{
+    padding-left: 280px;
+    
+}
+
