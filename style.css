@@ -1,0 +1,178 @@
+/* Fond */
+body {
+  background-color: #0f0f0f;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barre de navigation ergonomique */
+nav.menu {
+  background-color: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(10px); 
+  padding: 1rem 2rem;
+  margin: 1.5rem auto;
+  width: fit-content;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Centrage horizontal */
+nav.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style des liens */
+nav.menu ul li.btn a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 8px 14px;
+  border-radius: 12px;
+}
+
+/* Icônes plus petites */
+nav.menu ul li.btn a i {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  color: #bbbbbb;
+  transition: color 0.3s ease;
+}
+
+/* Hover */
+nav.menu ul li.btn:hover a {
+  background-color: white;
+  color: #0f0f0f;
+}
+
+nav.menu ul li.btn:hover a i {
+  color: #0f0f0f;
+}
+
+
+/* Bloc de contenu central */
+.content-box {
+  background-color: rgba(255, 255, 255, 0.05); 
+  color: white;
+  max-width: 600px;
+  margin: 4rem auto; 
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); 
+  backdrop-filter: blur(8px); 
+  border: 1px solid rgba(255, 255, 255, 0.08); 
+}
+
+.content-box h1 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #ffffff;
+}
+
+.content-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #dddddd;
+}
+
+
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(10px);
+  color: #bbbbbb;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto 1rem auto;
+  width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cv-section {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cv-section h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.cv-section p {
+  color: #bbbbbb;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  max-width: 400px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #ffffff;
+  color: #0f0f0f;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+
+.contact-section {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  color: #bbbbbb;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.contact-section a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+  color: #0f0f0f;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0 4px;
+}
