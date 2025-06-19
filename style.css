@@ -179,18 +179,10 @@ nav.menu ul li.btn:hover a i {
 
 
 
-.portfolio-image {
-  max-width: 600px;
-  margin: 1.5rem auto;
-  text-align: center;
-}
-
-
-.portfolio-image img {
+.img-portfolio {
   width: 100%;
   height: auto;
-  border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
 }
 
 
